@@ -4,6 +4,8 @@ service:
 plugins:
   - serverless-webpack
   - serverless-iam-roles-per-function
+  - serverless-reqvalidator-plugin
+  - serverless-aws-documentation
 
 provider:
   name: aws
